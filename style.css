@@ -1,0 +1,23 @@
+.board {
+  display: inline-grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  background-color: green;
+  vertical-align: middle;
+}
+
+.spot {
+  background-color: blue;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  color: black;
+  font-size: 100px;
+}
+.container{
+    position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
