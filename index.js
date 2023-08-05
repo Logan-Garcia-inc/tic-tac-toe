@@ -49,7 +49,7 @@ const updateDisplay = () => {
       document.querySelector(`.s${i}`).textContent = data[`s${i}`];
     }
 
-  }
+  };
   function win() {
     if (turn) {
       console.log("player 1 wins");
